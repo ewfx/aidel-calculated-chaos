@@ -17,11 +17,18 @@
 This project focuses on Gen AI-driven risk analysis for financial transactions. It processes payment transactions, extracts entities, checks for sanctions, analyzes news and financial filings, and evaluates risk using an AI-powered approach. The goal is to enhance compliance monitoring and financial risk detection.
 
 ## 🎥 Demo
-🔗 [Live Demo](#) (if applicable)  
-📹 [Video Demo](#) (if applicable)  
+🔗 [Video Demo](https://drive.google.com/file/d/1zfLjbGGiQM5OJMs8UFQ7v0u38tvk6duo/view?usp=sharing ) (Pls check it from Google Drive since Github has a limitation for 25mb)  
 🖼️ Screenshots:
+UI:
+![image](https://github.com/user-attachments/assets/b5f3ecdd-d65c-4e31-861b-aadb5a6d41c6)
 
-![Screenshot 1](link-to-image)
+File Parsed Successfully:
+![image](https://github.com/user-attachments/assets/b4f73a2d-6f90-4966-8c37-63640582ae62)
+
+Risk Analysis:
+
+![image](https://github.com/user-attachments/assets/6345fc2f-47ff-49b8-a297-ba131eaa1460)
+
 
 ## 💡 Inspiration
 The project was inspired by the increasing need for **automated risk assessment** in financial transactions. Many organizations struggle with detecting high-risk entities manually, leading to compliance violations. This system automates the screening process using AI and regulatory data.
