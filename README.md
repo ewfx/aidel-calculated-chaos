@@ -4,7 +4,7 @@
 - [Introduction](#-Introduction)
 - [Demo](https://drive.google.com/file/d/1zfLjbGGiQM5OJMs8UFQ7v0u38tvk6duo/view?usp=sharing )
 - [Inspiration](#-inspiration)
-- [What It Does](#what-it-does)
+- [What It Does](#-What-It-Does)
 - [How We Built It](#-how_we_built_it)
 - [Challenges We Faced](#challenges-we-faced)
 - [How to Run](#how-to-run)
