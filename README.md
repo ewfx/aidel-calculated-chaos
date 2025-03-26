@@ -1,4 +1,4 @@
-# 🚀 Project Name
+# 🚀 Risk Analysis Workflow with Gen AI-driven Entity Intelligence
 
 ## 📌 Table of Contents
 - [Introduction](#introduction)
@@ -14,7 +14,7 @@
 ---
 
 ## 🎯 Introduction
-A brief overview of your project and its purpose. Mention which problem statement are your attempting to solve. Keep it concise and engaging.
+This project focuses on Gen AI-driven risk analysis for financial transactions. It processes payment transactions, extracts entities, checks for sanctions, analyzes news and financial filings, and evaluates risk using an AI-powered approach. The goal is to enhance compliance monitoring and financial risk detection.
 
 ## 🎥 Demo
 🔗 [Live Demo](#) (if applicable)  
@@ -24,16 +24,28 @@ A brief overview of your project and its purpose. Mention which problem statemen
 ![Screenshot 1](link-to-image)
 
 ## 💡 Inspiration
-What inspired you to create this project? Describe the problem you're solving.
+The project was inspired by the increasing need for **automated risk assessment** in financial transactions. Many organizations struggle with detecting high-risk entities manually, leading to compliance violations. This system automates the screening process using AI and regulatory data.
 
 ## ⚙️ What It Does
-Explain the key features and functionalities of your project.
+1. **Extracts Entities:** Identifies companies, persons, and financial institutions from transaction data.
+2. **OFAC & UN Sanctions Check:** Flags entities present in global sanctions lists.
+3. **News Risk Analysis:** Fetches news articles and classifies their risk level using NLP models.
+4. **SEC Edgar Analysis:** Retrieves financial filings to detect anomalies.
+5. **AI-powered Risk Assessment:** Uses the Llama 3 8B model for final risk classification.
+6. **User-friendly UI:** Provides insights and justifications for flagged transactions.
 
 ## 🛠️ How We Built It
-Briefly outline the technologies, frameworks, and tools used in development.
+- **Streamlit UI:** Allows users to upload transaction files and view results.
+- **FastAPI Backend:** Processes transaction data and interacts with AI models.
+- **BERT-based Classifier:** Assesses risk in news articles.
+- **SEC Edgar API:** Retrieves regulatory filings for risk evaluation.
+- **Llama 3 8B Model:** Aggregates insights to assign a final risk classification.
 
 ## 🚧 Challenges We Faced
-Describe the major technical or non-technical challenges your team encountered.
+- **Entity Extraction Complexity:** Handling unstructured transaction formats.
+- **Sanctions List Updates:** Ensuring real-time accuracy in screening.
+- **Financial Document Parsing:** Processing and interpreting SEC filings efficiently.
+- **LLM Computation Overhead:** Optimizing model inference for real-time decision-making.
 
 ## 🏃 How to Run
 1. Clone the repository  
@@ -42,19 +54,26 @@ Describe the major technical or non-technical challenges your team encountered.
    ```
 2. Install dependencies  
    ```sh
-   npm install  # or pip install -r requirements.txt (for Python)
+   pip install -r requirements.txt  
    ```
 3. Run the project  
    ```sh
-   npm start  # or python app.py
+   streamlit run app.py  
    ```
 
 ## 🏗️ Tech Stack
-- 🔹 Frontend: Streamlit
-- 🔹 Backend: Node.js / FastAPI / Django
-- 🔹 Database: PostgreSQL / Firebase
-- 🔹 Other: OpenAI API / Twilio / Stripe
+- **Frontend:** Streamlit
+- **Backend:** FastAPI
+- **Database:** PostgreSQL
+- **NLP Models:** BERT, OpenAI API
+- **Financial APIs:** SEC Edgar
+- **LLM:** Llama 3 8B Model
 
 ## 👥 Team
-- **Your Name** - [GitHub](#) | [LinkedIn](#)
-- **Teammate 2** - [GitHub](#) | [LinkedIn](#)
+- **Vinay Pandey** 
+- **S. Rohith**
+- **Vishal Ramesh K**
+- **Keerthana Sureshkumar**
+
+## 🎯 Conclusion
+This AI-powered risk analysis system enhances financial compliance by automating entity screening, risk assessment, and regulatory checks. By leveraging LLMs, NLP models, and financial data sources, it ensures accurate and transparent decision-making in financial transactions.
