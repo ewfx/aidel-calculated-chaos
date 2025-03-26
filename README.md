@@ -4,11 +4,11 @@
 - [Introduction](#-Introduction)
 - [Demo](https://drive.google.com/file/d/1zfLjbGGiQM5OJMs8UFQ7v0u38tvk6duo/view?usp=sharing )
 - [Inspiration](#-inspiration)
-- [What It Does](#-what-it-does)
-- [How We Built It](#-how-we-built-it)
-- [Challenges We Faced](#-challenges-we-faced)
-- [How to Run](#-how-to-run)
-- [Tech Stack](#-tech-stack)
+- [What It Does](#-What_ItDoes)
+- [How We Built It](#-how_we_built_it)
+- [Challenges We Faced](#-challenges_we_faced)
+- [How to Run](#-how_to_run)
+- [Tech Stack](#-tech_stack)
 - [Team](#-Team)
 
 ---
