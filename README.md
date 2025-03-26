@@ -1,14 +1,14 @@
 # 🚀 Risk Analysis Workflow with Gen AI-driven Entity Intelligence
 
 ## 📌 Table of Contents
-- [Introduction](Introduction)
+- [Introduction](#-Introduction)
 - [Demo](https://drive.google.com/file/d/1zfLjbGGiQM5OJMs8UFQ7v0u38tvk6duo/view?usp=sharing )
-- [Inspiration](#inspiration)
-- [What It Does](#what-it-does)
-- [How We Built It](#how-we-built-it)
-- [Challenges We Faced](#challenges-we-faced)
-- [How to Run](#how-to-run)
-- [Tech Stack](#tech-stack)
+- [Inspiration](#-inspiration)
+- [What It Does](#-what-it-does)
+- [How We Built It](#-how-we-built-it)
+- [Challenges We Faced](#-challenges-we-faced)
+- [How to Run](#-how-to-run)
+- [Tech Stack](#-tech-stack)
 - [Team](#-Team)
 
 ---
