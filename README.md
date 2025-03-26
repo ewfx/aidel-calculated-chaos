@@ -77,9 +77,7 @@ The project was inspired by the increasing need for **automated risk assessment*
 - **LLM:** Llama 3 8B Model, GEMMA 3 1B, 
 
 ## 👥 Team
-![Uploading image.png…]()
-
-
+![image](https://github.com/user-attachments/assets/85b8474b-336c-4a75-bfef-a009d86f917d)
 
 
 ## 🎯 Conclusion
