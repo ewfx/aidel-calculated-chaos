@@ -1,14 +1,14 @@
 # README: Risk Analysis Workflow with AI-driven Entity Intelligence
 
 ## Overview
-This document explains the sequential workflow depicted in the provided diagram. The system is designed to process payment transactions, extract entities, check for sanctions, analyze news and financial filings, and evaluate risk using an AI-driven approach. The workflow involves multiple components such as Streamlit UI, FastAPI, entity extraction, OFAC screening, news APIs, SEC Edgar filings, and an LLM (Llama 3 8B model) for risk assessment.
+This document explains the sequential workflow diagram. The system is designed to process payment transactions, extract entities, check for sanctions, analyze news and financial filings, and evaluate risk using an AI-driven approach. The workflow involves multiple components such as Streamlit UI, FastAPI, entity extraction, OFAC screening, news APIs, SEC Edgar filings, and an LLM (Llama 3 8B model) for risk assessment.
 
 ---
 
 ## Workflow Breakdown
 
 ### **1. Streamlit UI**
-- **Input:** A `.txt` file containing financial transactions (structured and unstructured format).
+- **Input:** A `.txt` file containing financial transactions.
 - **Action:** The user uploads the transaction file via a Streamlit interface.
 - **Dispatch:** The file is sent to the FastAPI endpoint for processing.
 
