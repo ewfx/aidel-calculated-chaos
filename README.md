@@ -50,7 +50,7 @@ The project was inspired by the increasing need for **automated risk assessment*
 ## 🏃 How to Run
 1. Clone the repository  
    ```sh
-   git clone https://github.com/your-repo.git
+  [ git clone https://github.com/your-repo.git](https://github.com/ewfx/aidel-calculated-chaos.git)
    ```
 2. Install dependencies  
    ```sh
@@ -64,16 +64,17 @@ The project was inspired by the increasing need for **automated risk assessment*
 ## 🏗️ Tech Stack
 - **Frontend:** Streamlit
 - **Backend:** FastAPI
-- **Database:** PostgreSQL
-- **NLP Models:** BERT, OpenAI API
+- **Database:** PostgreSQL (If Needed)
+- **NLP Models:** BERT/BART, OpenAI API
 - **Financial APIs:** SEC Edgar
-- **LLM:** Llama 3 8B Model
+- **LLM:** Llama 3 8B Model, GEMMA 3 1B, 
 
 ## 👥 Team
-- **Vinay Pandey** 
+- **Keerthana Sureshkumar**
 - **S. Rohith**
 - **Vishal Ramesh K**
-- **Keerthana Sureshkumar**
+- **Vinay Pandey** 
+
 
 ## 🎯 Conclusion
 This AI-powered risk analysis system enhances financial compliance by automating entity screening, risk assessment, and regulatory checks. By leveraging LLMs, NLP models, and financial data sources, it ensures accurate and transparent decision-making in financial transactions.
