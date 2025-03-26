@@ -69,5 +69,78 @@ Additional notes:
 Urgent transaction which is authorized.txt…]()
 
 Output Response:
-
+```
+{
+  "Risk_Assessment_Results": [
+    {
+      "Transaction_ID": "TXN-2023-5AB1S",
+      "Extracted_Entities": [
+        "Horizons consulting LLC",
+        "Swiss Bank",
+        "BOSCO GILAN",
+        "Cayman National Bank",
+        "MUNITIONS INDUSTRY DEPARTMENT",
+        "Quantum Holding Ltd",
+        "Global FinTech Corp",
+        "Richard Branson",
+        "Amazon Inc"
+      ],
+      "Entity_Type": [
+        "Corporation",
+        "Corporation",
+        "Corporation",
+        "Corporation",
+        "Corporation",
+        "Corporation",
+        "Corporation",
+        "Individual",
+        "Corporation"
+      ],
+      "Risk_Score": 0.9153,
+      "Supporting_Evidence": ["OFAC US Sanctions"],
+      "Confidence_Score": 0.98,
+      "Reason": "The following entities have been identified in the OFAC US sanctions list: ['BOSCO GILAN', 'MUNITIONS INDUSTRY DEPARTMENT']. Engaging with sanctioned entities poses regulatory, financial, and reputational risks."
+    },
+    {
+      "Transaction_ID": "TXN-2025-1831S",
+      "Extracted_Entities": [
+        "ABDUL KABIR MOHAMMAD",
+        "Bright Future Nonprofit Inc",
+        "Cayman National Bank",
+        "Ahmed Al",
+        "Farsi",
+        "Apex Capital Partners"
+      ],
+      "Entity_Type": [
+        "Individual",
+        "Corporation",
+        "Corporation",
+        "Individual",
+        "Individual",
+        "Corporation"
+      ],
+      "Risk_Score": 0.8,
+      "Supporting_Evidence": ["OFAC UN Sanctions"],
+      "Confidence_Score": 0.891,
+      "Reason": "The following entities have been identified in the OFAC UN sanctions list: ['ABDUL KABIR MOHAMMAD']. Engaging with sanctioned entities poses regulatory, financial, and reputational risks."
+    },
+    {
+      "Transaction_ID": "TXN-2021-7653Sender",
+      "Extracted_Entities": ["Walmart", "Wells Fargo"],
+      "Entity_Type": ["Corporation", "Corporation"],
+      "Risk_Score": 0.4628,
+      "Confidence_Score": 0.8,
+      "Supporting_Evidence": [
+        "Google news",
+        "Edgar",
+        "LLM Knowledge"
+      ],
+      "Reason": {
+        "Walmart": "Walmart filed 4 on Unknown Date: Discloses insider trading, which could indicate undisclosed risks or potential misconduct. Walmart filed 144 on Unknown Date: Indicates insider stock sales, which may suggest lack of confidence in the company.",
+        "Wells Fargo": "Wells Fargo: corruption (0.36) - Potential risk based on negative news coverage."
+      }
+    }
+  ]
+}
+```
 
