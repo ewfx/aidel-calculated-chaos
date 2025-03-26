@@ -11,7 +11,7 @@ UI:
 
 Input Request: 
 
-[Uploading sample_inputTransaction ID: TXN-2023-5AB1
+Transaction ID: TXN-2023-5AB1
 Sender:
 - Name: Horizons consulting LLC
 - Account: IBAN CN56 0482 6781 9898 (Swiss Bank)
@@ -68,7 +68,7 @@ Urgent transaction which is authorized.txt…]()
 
 Output Response:
 
-[Risk Assessment Results.txt](https://github.com/user-attachments/files/19470021/Risk.Assessment.Results.txt)
+
 🛡️ Risk Assessment Results
 🔹 Transaction 1
 {
@@ -130,7 +130,7 @@ Output Response:
 }
 🔹 Transaction 3
 {
-"Transaction ID":"TXN-2021-7653Sender"
+"Transaction ID":"TXN-2021-7653"
 "Extracted Entity":[
 0:"Walmart"
 1:"Wells Fargo"
