@@ -56,8 +56,8 @@ The project was inspired by the increasing need for **automated risk assessment*
 
 ## 🏃 How to Run
 1. Clone the repository  
-   ```sh
-  [ git clone https://github.com/your-repo.git](https://github.com/ewfx/aidel-calculated-chaos.git)
+   ```
+   https://github.com/ewfx/aidel-calculated-chaos.git
    ```
 2. Install dependencies  
    ```sh
