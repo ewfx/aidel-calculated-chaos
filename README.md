@@ -77,10 +77,9 @@ The project was inspired by the increasing need for **automated risk assessment*
 - **LLM:** Llama 3 8B Model, GEMMA 3 1B, 
 
 ## 👥 Team
-- **Keerthana Sureshkumar**
-- **S. Rohith**
-- **Vishal Ramesh K**
-- **Vinay Pandey** 
+![Uploading image.png…]()
+
+
 
 
 ## 🎯 Conclusion
