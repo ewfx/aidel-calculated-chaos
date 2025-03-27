@@ -125,7 +125,7 @@ Output Response:
       "Reason": "The following entities have been identified in the OFAC UN sanctions list: ['ABDUL KABIR MOHAMMAD']. Engaging with sanctioned entities poses regulatory, financial, and reputational risks."
     },
     {
-      "Transaction_ID": "TXN-2021-7653Sender",
+      "Transaction_ID": "TXN-2021-7653",
       "Extracted_Entities": ["Walmart", "Wells Fargo"],
       "Entity_Type": ["Corporation", "Corporation"],
       "Risk_Score": 0.4628,
