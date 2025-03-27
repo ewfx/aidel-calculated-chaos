@@ -47,6 +47,16 @@ The project was inspired by the increasing need for **automated risk assessment*
 - **BERT-based Classifier:** Assesses risk in news articles.
 - **SEC Edgar API:** Retrieves regulatory filings for risk evaluation.
 - **Llama 3 8B Model:** Aggregates insights to assign a final risk classification.
+  
+- Design Diagram:
+
+  
+  ![image](https://github.com/user-attachments/assets/86b7f4e2-4fbe-41ac-b829-e7d48920a200)
+
+- Sequence Diagram:
+
+  
+  ![image](https://github.com/user-attachments/assets/f729f60f-273c-4a6d-8014-fca6d194fd27)
 
 ## 🚧 Challenges We Faced
 - **Entity Extraction Complexity:** Handling unstructured transaction formats.
