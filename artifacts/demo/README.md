@@ -12,7 +12,7 @@ UI:
 
 
 Input Request: 
-
+```
 Transaction ID: TXN-2023-5AB1
 Sender:
 - Name: Horizons consulting LLC
@@ -67,6 +67,7 @@ Transaction Type: Wire transfer
 Reference: Charitable donation
 Additional notes:
 Urgent transaction which is authorized.txt…]()
+```
 
 Output Response:
 ```
